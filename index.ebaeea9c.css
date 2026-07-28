@@ -1,0 +1,114 @@
+.card {
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  width: 200px;
+  padding: 32px 16px 16px;
+  display: flex;
+}
+
+.card__image {
+  width: 160px;
+  height: 134px;
+  margin: 0 auto 40px;
+}
+
+.card__commodity-name {
+  color: #060b35;
+  margin: 0 auto 4px;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.card__product-code {
+  color: #616070;
+  margin: 0 68px 0 0;
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.card__review {
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px auto 24px;
+  display: flex;
+}
+
+.card__review-number {
+  color: #060b35;
+  text-align: right;
+  letter-spacing: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.card__price-block {
+  flex-grow: 1;
+  justify-content: space-between;
+  margin: 0 auto 16px;
+  display: flex;
+}
+
+.card__price-sign {
+  color: #616070;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.card__price-amount {
+  color: #060b35;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.card__button {
+  border-width: 1px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 166px;
+  height: 40px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.card__button--bg {
+  background: #00acdc;
+}
+
+.card__button--bg:hover {
+  background: none;
+  border: 1px solid #00acdc;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.card__buy {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.card__buy:hover, .card__button:hover .card__buy {
+  color: #00acdc;
+}
+/*# sourceMappingURL=index.ebaeea9c.css.map */
